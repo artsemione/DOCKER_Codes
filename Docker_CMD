@@ -1,0 +1,2 @@
+BUILD_CMD
+	docker build --pull --rm -f "DockerFile" -t mysql_image "." <
