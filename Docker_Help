@@ -1,7 +1,11 @@
-LIST IMAGES
+LS
 	> docker ls
-LIST CONTAINERS
+PS
 	> docker ps
 	
-BUILD_CMD
+BUILD
 	> docker build --pull --rm -f "DockerFile" -t mysql_image "." <
+	
+EXEC
+'executa comandos dentro de um container
+	> docker exect 
