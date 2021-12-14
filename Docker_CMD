@@ -1,2 +1,7 @@
+LIST IMAGES
+	> docker ls
+LIST CONTAINERS
+	> docker ps
+	
 BUILD_CMD
-	docker build --pull --rm -f "DockerFile" -t mysql_image "." <
+	> docker build --pull --rm -f "DockerFile" -t mysql_image "." <
